@@ -5,6 +5,7 @@
 This module test four functions about filter & zip & map & reduce\
 \
 '
+__author__ == 'MLee'
 
 if __name__ == '__main__':
 	print(__doc__)
@@ -23,7 +24,7 @@ if __name__ == '__main__':
 	#############################################################
 	#					map
 	#############################################################
-	l3 = list(map(lambda x, y, z : x + 2* y + 3 * z, range(10), range(10, 30, 2), range(2, 12))) # 序列长度要求一样，依次对应传给x,y,z
+	l3 = list(map(lambda x, y, z : x + 2* y + 3 * z, range(10), range(10, 30, 2), range(2, 12))) # all sequences have the same length, and corresponding to x, y, z
 	print('map: %s' % l3)
 
 	#############################################################
