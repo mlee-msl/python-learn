@@ -1,9 +1,11 @@
 ﻿#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#模块中的第一个(否则不是)非注释字符串被认为是该模块的介绍部分(__doc__)，并且这个字符串中不能够有换行字符(\n)当需要换行时末尾加上反斜线字符\进行转义,或者使用三引号'''进行包裹
+# The first (or else not)non-comment string to be of the description of this module(check by '__doc__'),and there are two ways incluing single
+# quotes & three quotes express it, but note, you need append character '\' in the end-of-line when the former, and the latter, that is wrapped with  three quotes, is not.
 '\
 This is a module comment(decription) by single quotes how to use it.\
+\
 '
 
 __author__ = 'MLee' # The author of this module

@@ -1,9 +1,10 @@
 ﻿#!/usr/bin/python
 # -*- coding:utf-8 -*-
 
-"
-This module test four functions about filter & zip & map & reduce
-"
+'\
+This module test four functions about filter & zip & map & reduce\
+\
+'
 
 if __name__ == '__main__':
 	print(__doc__)
