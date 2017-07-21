@@ -1,0 +1,3 @@
+	python3中使用的是Unicode(所有字符一般均为2个字节，但是浪费空间，utf-8则为变长编码，英文1个字节，汉字3个字节)编码，使用ord()方法可以查看字符的Unicode编码的整数值(如ord('A'),ord('中')等)，使用chr()方法可以将Unicode编码值对应的字符显示出来(如chr(65),chr(20013)等)，如果你知道某个字符的Unicode值那么这个字符可以表示为'\uXXXX'的形式，字符串为'\uXXXX\uXXXX...'
+python代码中第一行：#!/usr/bin/python表示告诉Linux/OS X系统，这是一个python可执行性脚本程序，用python来解释执行，Windows将会忽略它
+第二行#-*- coding:utf-8 -*-：告诉Python解释器这个代码是按照utf-8编码的(但是需要将编辑器设置为utf-8 [without BOM]编码，因为此行只是告诉解释器而已)
