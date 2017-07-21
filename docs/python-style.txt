@@ -3,6 +3,7 @@
 
 # The first (or else not)non-comment string to be of the description of this module(check by '__doc__'),and there are two ways incluing single
 # quotes & three quotes express it, but note, you need append character '\' in the end-of-line when the former, and the latter, that is wrapped with  three quotes, is not.
+# just like below:
 '\
 This is a module comment(decription) by single quotes how to use it.\
 \
