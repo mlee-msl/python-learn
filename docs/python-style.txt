@@ -12,11 +12,11 @@ This is a module comment(decription) by single quotes how to use it.\
 __author__ = 'MLee' # The author of this module
 
 ########################
-#		coding...
+#	coding...
 ########################
 
 if __name__ == '__main__': # means to execute the following code-block only if current module, not by import
 	########################
-	#		coding...
+	#	coding...
 	########################
 
